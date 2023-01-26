@@ -1,0 +1,245 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+input{
+    padding: 0;
+}
+p , h3{
+    margin: 0;
+}
+a{
+    display: flex;
+    justify-content: center;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 640px;
+    height: 264px;
+    background-color: #fff;
+    align-self: center;
+}
+.cross{
+    position: absolute;
+    padding-top: 16px;
+    right: 16px;
+}
+.title{
+    font-family: Sora, sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+}
+.title1 , .title2{
+    padding-top: 20px;
+    text-align: center;
+}
+.vvod{
+    font-family: Sora, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 8px;
+    padding-left: 16px;
+}
+.first-page input{
+    width: 590px;
+    height: 48px;
+    border: 0.5px solid #DADADA;
+    margin: 8px 0 16px 16px;
+    padding-left: 16px;
+    font-family: Sora, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.25);
+}
+.btn{
+    width: 384px;
+    height: 48px;
+    background-color: #232529;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn p{
+    position: absolute;
+    font-family:Sora, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.second-page{
+    height: 328px;
+    display: flex;
+    align-items: center;
+}
+.subtitle{
+    font-family:Sora, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #A9A9A9;
+    text-align: center;
+    margin: 0;
+}
+.title2{
+    margin-bottom: 8px;
+}
+.password{
+    width: 48px;
+    height: 48px;
+    border: 0.5px solid #DADADA;
+    border-radius: 12px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #141414;
+    margin-right: 8px;
+    margin-bottom: 40px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.password::placeholder{
+    color: #FF3B30;
+}
+.second-password{
+    margin:32px 8px 0 0;
+}
+.error__title{
+    font-family: Sora, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF3B30;
+    text-align: left;
+}
+
+.third-page{
+    width: 664px;
+    height: 576px;
+    background-color: #fff;
+}
+.title3{
+    font-size: 16px;
+    padding: 24px 0 0 20px;
+}
+.subtitle-third ,.subtitle-fourth{
+    margin: 0 0 0 24px;
+    font-family: Sora, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.subtitle-third{
+    margin: 24px 0 0 24px;
+}
+.subtitle-third2{
+    margin: 16px 0 0 24px;
+}
+.names input{
+    width: 200px;
+}
+.names input,.birthday input , .fourth-page input{
+    height: 46.4px;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+}
+.name1{
+    margin: 16px 0px 0px 24px;
+}
+[type="text"]::placeholder{
+    padding-left: 16px;
+}
+.birthday {
+    margin: 8px 24px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.birthday_input ,.credit ,.credit2 input{
+    width: 198.4px;
+}
+.birthday_input2 ,.org-name{
+    width: 406.4px;
+}
+.date-receiving , .bank-name{
+    margin-left: 4px;
+}
+.second-part ,.third-part ,.birthday_input2{
+    margin-top: 16px;
+}
+.btn2{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fourth-page{
+    width: 664px;
+    height: 608px;
+}
+.second ,.buy ,.price ,.credit2{
+    display: flex;
+    margin: 0 24px 0;
+}
+.second input ,.price input ,.credit2 input{
+    margin-right: 8px;
+}
+.second .zp-info{
+    width: 301.4px;
+}
+.zp ,.subtitle-fourth ,.price ,.credit2{
+    padding-top: 16px;
+}
+.buy{
+    width: 623.4px;
+    margin-top: 8px;
+}
+
+.done{
+    display: flex;
+    position: absolute;
+    width: 640px;
+    height: 328px;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+.done_p{
+    padding-top: 8px;
+    font-family: Sora , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #A9A9A9;
+}
+.send{
+    font-size: 16px;
+    padding-top: 40px;
+}
+.done-img{
+    padding-top: 16px;
+}
+.second2{
+    margin: 24px 0px 0px 24px;
+}
